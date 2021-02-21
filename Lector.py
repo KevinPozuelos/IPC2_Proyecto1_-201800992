@@ -15,6 +15,7 @@ def parsexml(rute):
     root = tree.getroot()
     for element in root:
         print(element.attrib['nombre'], element.attrib['n'], element.attrib['m'])
+        #ListaMtx.insert(element.attrib['nombre'], element.attrib['n'], element.attrib['m'], Mtx)
         for subelement in element:
             print("Valor: " + subelement.text, "cordenada x: " + subelement.attrib['x'], "cordenada y: " + subelement.attrib['y'])
-
+            #Mtx.insert(subelement.text, subelement.attrib['x'], subelement.attrib['y'])
