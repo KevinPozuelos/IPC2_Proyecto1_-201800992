@@ -1,4 +1,7 @@
+from Lector import captureRute
+from Lector import parsexml
 def menu():
+
     print("Practica 1")
     print("-----------------")
     print("1.- Cargar archivo de entrada")
@@ -13,7 +16,8 @@ def menu():
 def menuP():
     while True:
         opcion = menu()
-        #if opcion == '1':
+        if opcion == '1':
+            parsexml(captureRute())
 
         #if opcion == '2':
 

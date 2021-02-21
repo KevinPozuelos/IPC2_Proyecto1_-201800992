@@ -1,4 +1,3 @@
-from Matriz import *
 class Dato:
     def __init__(self, x, y, val):
         self.x = x
