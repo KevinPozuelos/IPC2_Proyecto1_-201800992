@@ -4,13 +4,13 @@ def menu():
 
     print("Practica 1")
     print("-----------------")
-    print("1.- Cargar archivo de entrada")
-    print("2.- Desplegar listas ordenadas")
-    print("3.- Desplegar búsquedas")
-    print("4.- Desplegar todas ")
-    print("5.- Desplegar todas a archivo")
+    print("1.- Cargar archivo")
+    print("2.- Procesar archivo")
+    print("3.- Escribir archivo de salida")
+    print("4.- Mostrar datos del estudiante ")
+    print("5.- Generar grafica")
     print("6.- Salir")
-    opcion = input("Eliga su opcion: ")
+    opcion = input()
     return opcion
 
 def menuP():

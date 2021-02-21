@@ -13,3 +13,14 @@ class Matriz:
             while temp.next is not None:
                 temp = temp.next
             temp.next = nuevo
+
+
+
+
+    def mostrar(self):
+        tmp = self.star
+        contador = 1
+        while tmp is not None:
+            print(str(contador) + '. Coordenada x : ' + str(tmp.x) + ', Coordenada y : ' + str(tmp.y) + ', Valor ' + str(tmp.value))
+            contador += 1
+            tmp = tmp.next
