@@ -7,9 +7,9 @@ class ListaMatriz:
 
 
 
-    def insert(self, nombre, n, m, dato, accessM):
+    def insert(self, nombre, n, m, dato):
 
-        nuevo = Nodo(nombre, n, m, dato, accessM)
+        nuevo = Nodo(nombre, n, m, dato)
         if self.first is None:
             self.first = nuevo
         else:
@@ -25,7 +25,7 @@ class ListaMatriz:
         while tmp is not None:
             print(str(contador) + '. nombre: ' + str(tmp.nombre) + ', n = ' + str(tmp.n) + ' m = ' + str(tmp.m))
             print(str(tmp.dato.mostrar()))
-            print(str(tmp.accessM.mostrar()))
+
             contador += 1
             tmp = tmp.next
 

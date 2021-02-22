@@ -15,17 +15,17 @@ def parsexml(rute):
     tree = ET.parse(rute)
     root = tree.getroot()
     for element in root:
-        accessM = Matriz()
+
         Mtx = Matriz()
 
-        ListaMtx.insert(element.attrib['nombre'], element.attrib['n'], element.attrib['m'], Mtx, accessM)
+        ListaMtx.insert(element.attrib['nombre'], element.attrib['n'], element.attrib['m'], Mtx)
         for subelement in element:
-
-            Mtx.insert(subelement.attrib['x'], subelement.attrib['y'], subelement.text)
             if subelement.text != '0':
-                accessM.insert(subelement.attrib['x'], subelement.attrib['y'], str(1))
+                Mtx.insert(subelement.attrib['x'], subelement.attrib['y'], subelement.text, 1)
             else:
-                accessM.insert(subelement.attrib['x'], subelement.attrib['y'], str(0))
+                Mtx.insert(subelement.attrib['x'], subelement.attrib['y'], subelement.text, 0)
+
+
 
 
 
