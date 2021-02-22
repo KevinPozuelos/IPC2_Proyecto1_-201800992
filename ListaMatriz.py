@@ -5,8 +5,6 @@ class ListaMatriz:
     def __init__(self):
         self.first = None
 
-
-
     def insert(self, nombre, n, m, dato):
 
         nuevo = Nodo(nombre, n, m, dato)

@@ -1,10 +1,9 @@
 import xml.etree.ElementTree as ET
-
+from Matriz import *
 from ListaMatriz import *
 
 
 ListaMtx = ListaMatriz()
-
 def captureRute():
     rute = input("Ingrese nombre del archivo: ")
 

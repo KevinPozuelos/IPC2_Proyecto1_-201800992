@@ -1,4 +1,3 @@
-from Dato import *
 class Nodo:
     def __init__(self, nombre, n, m, dato):
         self.nombre = nombre
