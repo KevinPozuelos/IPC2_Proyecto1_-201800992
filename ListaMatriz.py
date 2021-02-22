@@ -1,5 +1,5 @@
 from Nodo import *
-from Matriz import *
+
 
 class ListaMatriz:
     def __init__(self):
@@ -30,7 +30,7 @@ class ListaMatriz:
             tmp = tmp.next
 
     def getSize(self):
-        tmp = self.inicio
+        tmp = self.star
         cont = 0
         while tmp is not None:
             cont += 1
