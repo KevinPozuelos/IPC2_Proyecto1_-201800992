@@ -25,7 +25,3 @@ class Matriz:
             contador += 1
             tmp = tmp.next
 
-    def reducir(self):
-        tmp = self.star
-        contador = 1
-

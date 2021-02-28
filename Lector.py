@@ -4,7 +4,8 @@ from ListaMatriz import *
 
 
 ListaMtx = ListaMatriz()
-def captureRute():
+Mtx = None
+def captureRute(): 
     rute = input("Ingrese nombre del archivo: ")
 
 
@@ -15,18 +16,14 @@ def parsexml(rute):
     root = tree.getroot()
     for element in root:
 
-        Mtx = Matriz()
+        Mtx = ListaMtx.insert(element.attrib['nombre'], element.attrib['n'], element.attrib['m'])
 
-        ListaMtx.insert(element.attrib['nombre'], element.attrib['n'], element.attrib['m'], Mtx)
+
         for subelement in element:
             if subelement.text != '0':
-                Mtx.insert(subelement.attrib['x'], subelement.attrib['y'], subelement.text, 1)
+                Mtx.matriz.insert(subelement.attrib['x'], subelement.attrib['y'], subelement.text, 1)
+
             else:
-                Mtx.insert(subelement.attrib['x'], subelement.attrib['y'], subelement.text, 0)
-
-
-
-
-
+                Mtx.matriz.insert(subelement.attrib['x'], subelement.attrib['y'], subelement.text, 0)
 
     ListaMtx.mostrar()
