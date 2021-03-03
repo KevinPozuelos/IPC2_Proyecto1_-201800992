@@ -7,7 +7,7 @@ class Nodo:
         self.next = None
         self.before = None
         self.matriz = Matriz()
-
+        self.reducida = Matriz()
 
 
     def getMatriz(self):

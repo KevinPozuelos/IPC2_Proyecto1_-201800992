@@ -1,5 +1,6 @@
 from Lector import captureRute
 from Lector import parsexml
+
 def menu():
 
     print("Practica 1")
@@ -14,21 +15,29 @@ def menu():
     return opcion
 
 def menuP():
+    matrices = None
     while True:
         opcion = menu()
         if opcion == '1':
-            parsexml(captureRute())
+            ruta = captureRute()
+            matrices = parsexml(ruta)
 
-
-        #if opcion == '2':
+        elif opcion == '2':
+            if matrices != None:
+                matrices.reducir()
+            else:
+                print("Error, un no has cargado un archivo")
 
         #if opcion == '3':
 
         #if opcion == '4':
 
 
-        #if opcion == '5':
-
+        elif opcion == '5':
+            busqueda = input('Ingrese nombre de matriz a buscar: ')
+            grafico = matrices.graph(matrices, busqueda)
+            if not grafico:
+                print("Ha ocurrido un problema")
 
         if opcion == '6':
             print("KEVIN RAUL POZUELOS")

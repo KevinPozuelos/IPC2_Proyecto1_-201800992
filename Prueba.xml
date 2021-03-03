@@ -1,19 +1,79 @@
 <matrices>
-<matriz nombre="MatrizPrueba1" n="2" m="2">
+<matriz nombre="MatrizPrueba1" n="4" m="4">
 <dato x="1" y="1">2</dato>
-<dato x="1" y="2">0</dato>
-<dato x="2" y="1">0</dato>
-<dato x="2" y="2">9</dato>
+<dato x="1" y="2">1</dato>
+<dato x="1" y="3">1</dato>
+<dato x="1" y="4">9</dato>
+<dato x="2" y="1">2</dato>
+<dato x="2" y="2">1</dato>
+<dato x="2" y="3">9</dato>
+<dato x="2" y="4">2</dato>
+<dato x="3" y="1">0</dato>
+<dato x="3" y="2">1</dato>
+<dato x="3" y="3">0</dato>
+<dato x="3" y="4">0</dato>
+<dato x="4" y="1">1</dato>
+<dato x="4" y="2">1</dato>
+<dato x="4" y="3">1</dato>
+<dato x="4" y="4">1</dato>
 </matriz>
-<matriz nombre="MatrizPrueba2" n="3" m="3">
+<matriz nombre="MatrizPrueba2" n="4" m="4">
 <dato x="1" y="1">2</dato>
-<dato x="1" y="2">3</dato>
+<dato x="1" y="2">1</dato>
+<dato x="1" y="3">1</dato>
+<dato x="1" y="4">9</dato>
+<dato x="2" y="1">2</dato>
+<dato x="2" y="2">1</dato>
+<dato x="2" y="3">9</dato>
+<dato x="2" y="4">2</dato>
+<dato x="3" y="1">0</dato>
+<dato x="3" y="2">1</dato>
+<dato x="3" y="3">0</dato>
+<dato x="3" y="4">0</dato>
+<dato x="4" y="1">0</dato>
+<dato x="4" y="2">1</dato>
+<dato x="4" y="3">0</dato>
+<dato x="4" y="4">0</dato>
+</matriz>
+<matriz nombre="MatrizPrueba3" n="2" m="2">
+<dato x="1" y="1">2</dato>
+<dato x="1" y="2">1</dato>
+<dato x="2" y="1">2</dato>
+<dato x="2" y="2">1</dato>
+</matriz>
+<matriz nombre="MatrizPrueba4" n="3" m="2">
+<dato x="1" y="1">1</dato>
+<dato x="1" y="2">0</dato>
+<dato x="2" y="1">1</dato>
+<dato x="2" y="2">1</dato>
+<dato x="3" y="1">1</dato>
+<dato x="3" y="2">1</dato>
+</matriz>
+<matriz nombre="MatrizPrueba5" n="5" m="5">
+<dato x="1" y="1">1</dato>
+<dato x="1" y="2">2</dato>
 <dato x="1" y="3">3</dato>
-<dato x="2" y="1">0</dato>
-<dato x="2" y="2">8</dato>
-<dato x="2" y="3">0</dato>
-<dato x="3" y="1">9</dato>
-<dato x="3" y="2">8</dato>
-<dato x="3" y="3">1</dato>
+<dato x="1" y="4">4</dato>
+<dato x="1" y="5">5</dato>
+<dato x="2" y="1">1</dato>
+<dato x="2" y="2">2</dato>
+<dato x="2" y="3">3</dato>
+<dato x="2" y="4">4</dato>
+<dato x="2" y="5">5</dato>
+<dato x="3" y="1">1</dato>
+<dato x="3" y="2">2</dato>
+<dato x="3" y="3">3</dato>
+<dato x="3" y="4">4</dato>
+<dato x="3" y="5">5</dato>
+<dato x="4" y="1">1</dato>
+<dato x="4" y="2">2</dato>
+<dato x="4" y="3">3</dato>
+<dato x="4" y="4">4</dato>
+<dato x="4" y="5">5</dato>
+<dato x="5" y="1">1</dato>
+<dato x="5" y="2">2</dato>
+<dato x="5" y="3">3</dato>
+<dato x="5" y="4">4</dato>
+<dato x="5" y="5">5</dato>
 </matriz>
 </matrices>

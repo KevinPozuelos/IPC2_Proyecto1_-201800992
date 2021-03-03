@@ -1,14 +1,9 @@
 import xml.etree.ElementTree as ET
-from Matriz import *
 from ListaMatriz import *
-
-
 ListaMtx = ListaMatriz()
 Mtx = None
-def captureRute(): 
+def captureRute():
     rute = input("Ingrese nombre del archivo: ")
-
-
     return rute
 
 def parsexml(rute):
@@ -25,5 +20,7 @@ def parsexml(rute):
 
             else:
                 Mtx.matriz.insert(subelement.attrib['x'], subelement.attrib['y'], subelement.text, 0)
+                
+    return ListaMtx
 
-    ListaMtx.mostrar()
+
