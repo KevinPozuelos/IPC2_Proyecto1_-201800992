@@ -85,6 +85,12 @@ Clase que permite la ejecucion de todo el codigo.
   <img src="img/4.PNG" width="350" alt="Menu">
 </p>
 
+#### Mostrar Grafico
+
 <p align="center">
   <img src="img/5.PNG" width="350" alt="Menu">
+</p>
+
+<p align="center">
+  <img src="img/6.PNG" width="350" alt="Menu">
 </p>
