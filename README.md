@@ -2,11 +2,8 @@
 LABORATORIO INTRODUCCION A LA PROGRAMACION Y COMPUTACION 2 Sección D
 Sección B+
 Proyecto 1 - 201800992
-
-
 ##Proyecto 1
 En este proyecto se han implementado estructuras basicas de datos y sus diferentes funcionaes. 
-
 ###TDA
 
 ```
@@ -15,7 +12,6 @@ En este proyecto se han implementado estructuras basicas de datos y sus diferent
 -Lista simplemente enlazada
 
 ```
-
 ###Metodos de TDA'S
 ```
       ---------------------------------------------------------------------------------------------------
@@ -43,10 +39,7 @@ En este proyecto se han implementado estructuras basicas de datos y sus diferent
       | Lista simple  | Metodo para mostrar el contenido de los nodos de la lista simple                |
       | mostrar       |                                                                                 |
       |-------------  | --------------------------------------------------------------------------------|
-     
-
 ```
-
 ### Implementacion en python
 #####Clase Nodo
 Clase que nos permite almacenar nuestras matrices y posteriormente para crear una lista doblemente enlazada.
