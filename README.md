@@ -59,6 +59,9 @@ Clase que nos permite leer y guardar los datos de un archivo xml en nuestras lis
 
 ##### Menu
 lase menu para mostrar las funcionabilidades solicitadas.
+<p align="center">
+  <img src="img/Menu.PNG" width="200" alt="Clase Nodo">
+</p>
 
 ##### Main
 Clase que permite la ejecucion de todo el codigo.
