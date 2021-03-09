@@ -49,23 +49,22 @@ En este proyecto se han implementado estructuras basicas de datos y sus diferent
 
 ### Implementacion en python
 ####Clase Nodo
-
 Clase que nos permite almacenar nuestras matrices y posteriormente para crear una lista doblemente enlazada.
+
 ####Clase Dato
-
 Clase que nos permite almacenar el contenido de nuestras matrices y posterior mente crear una lista simplemente enlazada. 
+
 ####Clase Matriz
-
 Clase donde se implementa los metodos de una lista simplemente enlazada. 
+
 ####ListaMatriz
-
 Clase que nos permite guardar los datos generales de nuestra matriz y nuestras matrices en una lista doblemente enlazada. 
+
 ####Lector
-
 Clase que nos permite leer y guardar los datos de un archivo xml en nuestras listas enlazadas.
-####Menu
 
-Clase menu para mostrar las funcionabilidades solicitadas.
+####Menu
+lase menu para mostrar las funcionabilidades solicitadas.
 
 ####Main
-Clase que permite la ejecucion de todo el codigo
+Clase que permite la ejecucion de todo el codigo.
