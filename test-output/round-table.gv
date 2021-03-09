@@ -1,0 +1,25 @@
+// The Round Table
+digraph {
+	N [label=nombreMatrizPrueba1]
+	F [label=n4]
+	C [label=m4]
+	V [label=nombre2]
+	V [label=nombre1]
+	V [label=nombre1]
+	V [label=nombre9]
+	V [label=nombre2]
+	V [label=nombre1]
+	V [label=nombre9]
+	V [label=nombre2]
+	V [label=nombre0]
+	V [label=nombre1]
+	V [label=nombre0]
+	V [label=nombre0]
+	V [label=nombre1]
+	V [label=nombre1]
+	V [label=nombre1]
+	V [label=nombre1]
+	N -> F
+	N -> C
+	N -> V
+}

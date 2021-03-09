@@ -1,0 +1,41 @@
+digraph G { 
+Inicio[label="Matrices"]
+Matriz[label="MatrizPrueba2"]
+filas[label=" n = 4", shape = doublecircle, color = blue]
+columnas[label=" m = 4", shape = doublecircle, color = blue]
+Inicio -> Matriz 
+Matriz -> filas
+Matriz -> columnas
+fila11[label="2"]
+Matriz -> fila11
+fila12[label="1"]
+Matriz -> fila12
+fila13[label="1"]
+Matriz -> fila13
+fila14[label="9"]
+Matriz -> fila14
+fila21[label="2"]
+fila11 -> fila21
+fila22[label="1"]
+fila12 -> fila22
+fila23[label="9"]
+fila13 -> fila23
+fila24[label="2"]
+fila14 -> fila24
+fila31[label="0"]
+fila21 -> fila31
+fila32[label="1"]
+fila22 -> fila32
+fila33[label="0"]
+fila23 -> fila33
+fila34[label="0"]
+fila24 -> fila34
+fila41[label="0"]
+fila31 -> fila41
+fila42[label="1"]
+fila32 -> fila42
+fila43[label="0"]
+fila33 -> fila43
+fila44[label="0"]
+fila34 -> fila44
+}
