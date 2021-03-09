@@ -59,9 +59,10 @@ Clase que nos permite guardar los datos generales de nuestra matriz y nuestras m
 ####Lector
 Clase que nos permite leer y guardar los datos de un archivo xml en nuestras listas enlazadas.
 ####Menu
+Clase menu para mostrar las funcionabilidades solicitadas.
 
 <p align="center">
-  <img src="img/Menu.PNG" width="300" alt="Get Temporal">
+  <img src="img/Menu.PNG" width="200" alt="Get Temporal">
 </p>
 
 ####Main
