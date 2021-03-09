@@ -61,7 +61,7 @@ Clase que nos permite leer y guardar los datos de un archivo xml en nuestras lis
 clase menu para mostrar las funcionabilidades solicitadas.
 
 <p align="center">
-  <img src="img/Menu.png" width="200" alt="Menu">
+  <img src="img/1.PNG" width="200" alt="Menu">
 </p>
 
 ##### Main
