@@ -22,6 +22,7 @@ def menuP():
             ruta = captureRute()
             matrices = parsexml(ruta)
             matrices.mostrar()
+
         elif opcion == '2':
             if matrices != None:
                 print(matrices.reducir())
