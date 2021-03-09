@@ -21,10 +21,10 @@ def menuP():
         if opcion == '1':
             ruta = captureRute()
             matrices = parsexml(ruta)
-
+            matrices.mostrar()
         elif opcion == '2':
             if matrices != None:
-                matrices.reducir()
+                print(matrices.reducir())
             else:
                 print("Error, un no has cargado un archivo")
 
@@ -34,6 +34,7 @@ def menuP():
 
 
         elif opcion == '5':
+            matrices.mostrarnom()
             busqueda = input('Ingrese nombre de matriz a buscar: ')
             grafico = matrices.graph(matrices, busqueda)
             if not grafico:

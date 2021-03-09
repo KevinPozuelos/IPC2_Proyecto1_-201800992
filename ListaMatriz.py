@@ -62,8 +62,16 @@ class ListaMatriz:
 
                 matriz = matriz.next
             print("Nombre matriz : " + tmp.nombre + " -- Reducciones: " + filaVeri)
+
             filaVeri = ""
             tmp = tmp.next
+
+
+    def suma(self, matriz, listafila):
+        tmp = self.first
+        matriz = tmp.matriz.star
+        #while matriz is not None:
+
 
 
     def graph(self, matrix, busqueda):
@@ -97,7 +105,7 @@ class ListaMatriz:
         
         try:
             dot += "}"
-            archivo = open("grafico.dot",'w')
+            archivo = open("grafico.dot", 'w')
             archivo.write(dot)
             archivo.close()
 
@@ -114,3 +122,13 @@ class ListaMatriz:
                 return tmp
             tmp = tmp.next
         return None
+
+    def mostrarnom(self):
+        tmp = self.first
+        contador = 1
+        while tmp is not None:
+            print(str(contador) + '. nombre: ' + str(tmp.nombre))
+
+
+            contador += 1
+            tmp = tmp.next
