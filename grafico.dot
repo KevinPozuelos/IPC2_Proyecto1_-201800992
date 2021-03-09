@@ -1,6 +1,6 @@
 digraph G { 
 Inicio[label="Matrices"]
-Matriz[label="MatrizPrueba2"]
+Matriz[label="MatrizPrueba1"]
 filas[label=" n = 4", shape = doublecircle, color = blue]
 columnas[label=" m = 4", shape = doublecircle, color = blue]
 Inicio -> Matriz 
@@ -30,12 +30,12 @@ fila33[label="0"]
 fila23 -> fila33
 fila34[label="0"]
 fila24 -> fila34
-fila41[label="0"]
+fila41[label="1"]
 fila31 -> fila41
 fila42[label="1"]
 fila32 -> fila42
-fila43[label="0"]
+fila43[label="1"]
 fila33 -> fila43
-fila44[label="0"]
+fila44[label="1"]
 fila34 -> fila44
 }

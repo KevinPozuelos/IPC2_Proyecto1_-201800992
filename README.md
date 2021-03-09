@@ -72,3 +72,19 @@ Clase que permite la ejecucion de todo el codigo.
 <p align="center">
   <img src="img/2.PNG" width="350" alt="Menu">
 </p>
+
+#### Procesar archivo
+
+<p align="center">
+  <img src="img/3.PNG" width="350" alt="Menu">
+</p>
+
+#### Mostrar datos del estudiante
+
+<p align="center">
+  <img src="img/4.PNG" width="350" alt="Menu">
+</p>
+
+<p align="center">
+  <img src="img/5.PNG" width="350" alt="Menu">
+</p>

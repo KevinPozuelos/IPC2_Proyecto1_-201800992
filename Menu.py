@@ -31,7 +31,12 @@ def menuP():
 
         #if opcion == '3':
 
-        #if opcion == '4':
+        if opcion == '4':
+            print("KEVIN RAUL POZUELOS")
+            print("CARNE: 201800992")
+            print("Introduccion a la programacion y computacion 2 Seccion: ""A""")
+            print("Ingenieria en Ciencias y Sistemas")
+            print("4to Semestre")
 
 
         elif opcion == '5':
@@ -42,9 +47,5 @@ def menuP():
                 print("Ha ocurrido un problema")
 
         if opcion == '6':
-            print("KEVIN RAUL POZUELOS")
-            print("CARNE: 201800992")
-            print("Introduccion a la programacion y computacion 2 Seccion: ""A""")
-            print("Ingenieria en Ciencias y Sistemas")
-            print("4to Semestre")
+
             break
